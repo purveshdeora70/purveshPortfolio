@@ -60,6 +60,7 @@
 .cards{
     position: relative;
     flex: 1;
+    margin-left: 100px;
 }
 
 .cards>*{
@@ -76,20 +77,19 @@
     top: 13rem;
     left: -18rem;
 }
-
 @media screen and (max-width: 480px) {
     .services{
         margin-top: 0;
         flex-direction: column;
         gap: 5rem;
-        height: 66rem;
+        height: 80rem;
         padding: 0;
     }
 
     .cards{
         display: flex;
         flex-direction: column;
-        gap: 17rem;
+        gap: 20rem;
     }
     .cards>*{
         position: static;

@@ -124,7 +124,7 @@
     .intro{
         flex-direction: column;
         gap: 7rem;
-        height: 64rem;
+        height: 80rem;
     }
     .i-right{
         transform: scale(0.8);
