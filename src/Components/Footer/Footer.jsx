@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
 import Wave from '../../img/wave.png';
-import Insta from '@iconscout/react-unicons/icons/uil-instagram'
-import Facebook from '@iconscout/react-unicons/icons/uil-facebook'
 import Github from '@iconscout/react-unicons/icons/uil-github'
+import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
+import Facebook from '@iconscout/react-unicons/icons/uil-facebook'
 
 const Footer = () => {
   return (
@@ -12,9 +12,15 @@ const Footer = () => {
         <div className="f-content">
             <span>Purveshdeora70@gmail.com</span>
             <div className="f-icons">
-                <Insta color='white' size='3rem' />
-                <Facebook color='white' size='3rem' />
-                <Github color='white' size='3rem' />
+                <a href="https://github.com/purveshdeora70" target='github'>
+                  <Github color='white' size='3rem' />
+                </a>
+                <a href="https://www.linkedin.com/in/purvesh-deora-70/" target='linkedin'>
+                  <Linkedin color='white' size='3rem' />
+                </a>
+                <a href="https://www.instagram.com/purveshdeora70/" target='instagram'>
+                  <Facebook color='white' size='3rem' />
+                </a>
             </div>
         </div>
     </div>

@@ -31,7 +31,19 @@
 
 .awesome>:nth-child(3){
     color: var(--gray);
-    font-size: 14px;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.awesome>:nth-child(4){
+    color: var(--gray);
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.awesome>:nth-child(5){
+    color: var(--gray);
+    font-size: 15px;
     margin-top: 1rem;
 }
 
@@ -39,6 +51,10 @@
     width: 8rem;
     height: 2rem;
     margin-top: 1rem;
+}
+
+.title{
+    color: #8a2be2;
 }
 
 .cards{

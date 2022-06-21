@@ -32,7 +32,21 @@
 
 .i-name>:nth-child(3){
     font-weight: 100;
-    font-size: 14px;
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.i-name>:nth-child(4){
+    font-weight: 100;
+    font-size: 18px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.i-name>:nth-child(5){
+    font-weight: 100;
+    font-size: 18px;
     color: var(--gray);
     margin-top: 10px;
 }

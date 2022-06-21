@@ -1,6 +1,6 @@
 .card{
     width: 10rem;
-    height: 13rem;
+    height: 16rem;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,13 @@
     padding: 0px 26px 2rem 26px;
 }
 
-.card span:nth-of-type(2){
+.card span:nth-of-type(2    ){
+    /* color: var(--gray); */
+    color: #8a2be2;
+    font-size: 16px bold;
+}
+
+.card span:nth-of-type(3){
     color: var(--gray);
     font-size: 16px;
 }

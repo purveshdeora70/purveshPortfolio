@@ -21,9 +21,24 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
-        I provide web development services. I create website for people
+        <span className='title'>Web development - </span>
+        A website sets an impression about the brand. It must be built with two primary goals: 
         <br />
-        and provide them services.
+        First it needs to work with all devices. Secondly it needs to be fast.
+        </span>
+
+        <span>
+        <span className='title'>UI/UX designing - </span>
+        An application should be designed for the people who will use it, so that's exactly what I do. 
+        <br />
+        User focused design should be the primary goal of any application.
+        </span>
+
+        <span>
+        <span className='title'>Development - </span>
+        Experience in more than one programming language. like Javascript & Python. Also familiar with 
+        <br />
+        tools like Android studio, Adobe Illustrator, Firebase.
         </span>
         <a href={Resume} download>
         <button className="button s-button">Download CV</button>
@@ -40,8 +55,10 @@ const Services = () => {
         >
             <Card
             emoji={HeartEmoji}
-            heading={'Design'}
-            detail={"Figma, Sketch, Phtoshop, Adobe"} />
+            heading={'UI/UX designing'}
+            title={"TECHNOLOGIES:"}
+            detail={"Phtoshop, ADOBE XD, ADOBE ILLUSTRATOR."} 
+            />
         </motion.div>
         {/* Second Card */}
         <motion.div
@@ -52,8 +69,9 @@ const Services = () => {
         >
           <Card
           emoji={Glasses}
-          heading={"Developer"}
-          detail={"Html, Css, JavaScript, React, Express, Mongodb"}
+          heading={"Web development"}
+          title={"TECHNOLOGIES:"}
+          detail={"HTML, CSS, JS, REACT JS, JSON, NODEJS, FIREBASE, MONGODB, EXPRESS JS, SQL, BOOTSTRAP"}
            />
         </motion.div>
         {/* #rd Card */}
@@ -65,8 +83,9 @@ const Services = () => {
         >
           <Card
           emoji={Humble}
-          heading={"UI/UX"}
-          detail={"Provides Best User Interface."}
+          heading={"Development"}
+          title={"TECHNOLOGIES:"}
+          detail={"JAVASCRIPT, REACT JS, EXPRESS, NODE JS, MONGOOSE"}
           color='rgba(252, 166, 31, 0.45)'
           />
         </motion.div>

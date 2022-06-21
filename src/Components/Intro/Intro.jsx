@@ -25,15 +25,33 @@ const Intro = () => {
                 <div className="i-name">
                     <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
                     <span>Purvesh Deora</span>
-                    <span>Full Stack Web Developer with good level of experience in front-end and back-end development, producting the Quality work</span>
+                    <span>I am an web developer. I love this profession, I ❤️ coffee and <br /> brew my own beers🍺.</span>
+                    <span>I passed my HSC with an biology subject and eventually at that time, I didn't knew anything about 
+                    <br />
+                    coding and I started learning to code when I was in 1st year of Bsc(it) and got interest in it when I 
+                    <br />
+                    started learning about web design and development. Over time, I gain wealth of experience designing
+                    <br />
+                    and developing web applications.</span>
+                    <span>
+                    I always want to give my best and keep evolving, thus, need an opportunity to utilize my years of learning
+                    <br />
+                    experience, and creativity and add value to company using my innovative ideas and logical thinking.
+                    </span>
                 </div>
                 <Link to="Contact" smooth={true} spy={true}>
                     <button className="button i-button">Hire me</button>
                 </Link>
                 <div className="i-icons">
+                    <a href="https://github.com/purveshdeora70" target='github'>
                     <img src={Github} alt="" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/purvesh-deora-70/" target='linkedin'>
                     <img src={LinkedIn} alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/purveshdeora70/" target='instagram'>
                     <img src={Instagram} alt="" />
+                    </a>
                 </div>
             </div>
             <div className="i-right">
