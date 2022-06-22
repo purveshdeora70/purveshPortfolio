@@ -46,6 +46,10 @@
     color: var(--orange);
 }
 
+.experience{
+    transform: scale(1);
+}
+
 @media screen and (max-width: 480px) {
     .experience{
         transform: scale(0.7);

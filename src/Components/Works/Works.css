@@ -67,8 +67,8 @@
 }
 
 .w-mainCircle > :nth-child(2){
-    left: -3rem;
-    top: 5rem;
+    left: 6rem;
+    top: 13rem;
 }
 
 .w-mainCircle > :nth-child(3){
@@ -82,8 +82,8 @@
 }
 
 .w-mainCircle > :nth-child(5){
-    left: 6rem;
-    top: 13rem;
+    left: -3rem;
+    top: 5rem;
 }
 
 .w-secCircle{

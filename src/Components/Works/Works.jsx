@@ -1,10 +1,10 @@
 import React, {useContext} from 'react';
 import './Works.css';
-import Upwork from '../../img/Upwork.png';
-import Fiverr from '../../img/fiverr.png';
-import Amazon from '../../img/amazon.png';
-import Shopify from '../../img/Shopify.png';
-import Facebook from '../../img/Facebook.png';
+// import Fiverr from '../../img/fiverr.png';
+// import Shopify from '../../img/Shopify.png';
+import Technokraft from '../../img/Technokraft.png';
+import Docty from '../../img/Docty.png';
+import TravelBureau from '../../img/Travel_Bureau.png';
 import {themeContext} from '../../Context';
 import {motion} from 'framer-motion';
 import {Link} from 'react-scroll';
@@ -19,7 +19,7 @@ const Works = () => {
         <div className='awesome'>
             <span style={{ color: darkMode ? "white" : "" }}>Works for All these</span>
             <span>Brands & Clients</span>
-            <span>
+            {/* <span>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
             ispum is simpley dummy text of printingLorem ispum is simpley dummy
@@ -27,7 +27,7 @@ const Works = () => {
             y dummy text of printingLorem
             <br />
             ispum is simpley dummy text of printing
-            </span>
+            </span> */}
             <Link to="Contact" smooth={true} spy={true}>
                 <button className="button s-button">Hire Me</button>
             </Link>
@@ -43,20 +43,20 @@ const Works = () => {
                 className="w-mainCircle"
                 >
                 <div className="w-secCircle">
-                    <img src={Upwork} alt="" />
+                    <img src={Technokraft} alt="" />
                 </div>
                 <div className="w-secCircle">
+                    <img src={TravelBureau} alt="" />
+                </div>
+                <div className="w-secCircle">
+                    <img src={Docty} alt="" />
+                </div>
+                {/* <div className="w-secCircle">
                     <img src={Fiverr} alt="" />
                 </div>
                 <div className="w-secCircle">
-                    <img src={Amazon} alt="" />
-                </div>
-                <div className="w-secCircle">
                     <img src={Shopify} alt="" />
-                </div>
-                <div className="w-secCircle">
-                    <img src={Facebook} alt="" />
-                </div>
+                </div> */}
             </motion.div>
             {/* background circle */}
             <div className="w-backCircle blueCircle"></div>
