@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import './Portfolio.css';
+import './Project.css';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import Secrets from '../../img/Secrets.png';
 // import PurveshDeora from '../../img/Purvesh_Deora.png';
@@ -50,8 +50,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id='Portfolio'>
         {/* heading */}
-        <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-        <span>Portfolio</span>
+        <span style={{color: darkMode?'white': ''}}>Recent</span>
+        <span>Projects</span>
 
         {/* slider */}
         {screenSize? 
