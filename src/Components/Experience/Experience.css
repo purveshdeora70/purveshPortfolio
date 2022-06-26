@@ -53,6 +53,6 @@
 @media screen and (max-width: 500px) {
     .experience{
         transform: scale(0.7);
-        padding-top: 4rem;
+        padding-top: 7rem;
     }
 }
