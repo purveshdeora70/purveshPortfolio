@@ -37,7 +37,7 @@ const Footer = () => {
                 <a href="https://www.facebook.com/madhu.sudhandeora/" target='facebook'>
                   <Facebook color='white' size='3rem' />
                 </a>                
-                <a href="https://www.instagram.com/purveshdeora70/" target='facebook'>
+                <a href="https://www.instagram.com/purveshdeora70/" target='instagram'>
                   <Instagram color='white' size='3rem' />
                 </a>                
             </div>
