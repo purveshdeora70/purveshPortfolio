@@ -20,26 +20,21 @@ const Services = () => {
         <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <span>
-        <span className='title'>Web development - </span>
+        <span></span>
+        <p>
+        <span className='title'>Web development Purvesh- </span>
         A website sets an impression about the brand. It must be built with two primary goals: 
-        <br />
         First it needs to work with all devices. Secondly it needs to be fast.
-        </span>
-
-        <span>
+        <br /><br />
         <span className='title'>UI/UX designing - </span>
         An application should be designed for the people who will use it, so that's exactly what I do. 
-        <br />
         User focused design should be the primary goal of any application.
-        </span>
-
-        <span>
+        <br /><br />
         <span className='title'>Development - </span>
         Experience in more than one programming language. like Javascript & Python. Also familiar with 
-        <br />
         tools like Android studio, Adobe Illustrator, Firebase.
-        </span>
+
+        </p>
         <a href={Resume} download>
         <button className="button s-button">Download CV</button>
         </a>

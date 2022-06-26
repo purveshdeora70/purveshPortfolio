@@ -31,27 +31,6 @@
     font-size: 3rem;
 }
 
-.i-name>:nth-child(3){
-    font-weight: 100;
-    font-size: 20px;
-    /* color: var(--gray); */
-    margin-top: 10px;
-}
-
-.i-name>:nth-child(4){
-    font-weight: 100;
-    font-size: 18px;
-    /* color: var(--gray); */
-    margin-top: 10px;
-}
-
-.i-name>:nth-child(5){
-    font-weight: 100;
-    font-size: 18px;
-    /* color: var(--gray); */
-    margin-top: 10px;
-}
-
 .i-button{
     width: 6rem;
     height: 2rem;
@@ -121,6 +100,12 @@
     filter: blur(72px);
 }
 
+p{
+    text-align: justify;
+    width: 80%;
+
+}
+
 @media screen and (max-width: 500px) {
     .intro{
         flex-direction: column;
@@ -140,5 +125,9 @@
 
     .floating-div:nth-of-type(1){
         top: -7rem !important;
+    }
+
+    p{
+        width: 100%;
     }
 }
