@@ -22,7 +22,7 @@ const Services = () => {
         <span>services</span>
         <span></span>
         <p>
-        <span className='title'>Web development Purvesh- </span>
+        <span className='title'>Web development - </span>
         A website sets an impression about the brand. It must be built with two primary goals: 
         First it needs to work with all devices. Secondly it needs to be fast.
         <br /><br />
