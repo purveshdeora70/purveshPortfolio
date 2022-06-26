@@ -23,7 +23,22 @@
     gap: 2rem;
 }
 
-@media screen and (max-width: 480px){
+.contact-contain{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.f-address{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+@media screen and (max-width: 500px){
     .f-content{
       transform: scale(.5);
     }

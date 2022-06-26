@@ -15,11 +15,11 @@ const Contact = () =>{
 
     const sendEmail = (e) => {
     e.preventDefault();
-    e.target.reset();
     emailjs.sendForm(serviceId, templeteID, form.current, publicKey)
-      .then((result) => {
-          console.log(result.text);
-          setDone(true);
+    .then((result) => {
+        console.log(result.text);
+        setDone(true);
+        e.target.reset();
       }, (error) => {
           console.log(error.text);
       });

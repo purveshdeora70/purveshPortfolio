@@ -57,7 +57,7 @@ const Services = () => {
             emoji={HeartEmoji}
             heading={'UI/UX designing'}
             title={"TECHNOLOGIES:"}
-            detail={"Phtoshop, ADOBE XD, ADOBE ILLUSTRATOR."} 
+            detail={"Phtoshop, ADOBE XD, ADOBE ILLUSTRATOR, VIDEO EDITOR"} 
             />
         </motion.div>
         {/* Second Card */}

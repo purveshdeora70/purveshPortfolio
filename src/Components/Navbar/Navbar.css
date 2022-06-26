@@ -1,9 +1,14 @@
 .n-wrapper{
-    height: 10vh;
+    /* height: 10vh; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
     top: 0;
+
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    width: 100%;
 }
 
 .n-left{
@@ -12,6 +17,7 @@
     justify-content: left;
     display: flex;
     gap: 2rem;
+    padding-left: 3.5rem;
 }
 
 .n-name{
@@ -20,11 +26,12 @@
 }
 
 .n-right{
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     font-weight: 400;
+    padding-right: 3.5rem;
 }
 
 .n-list{
@@ -47,11 +54,23 @@
     flex: 2;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .n-list{
         display: none;
     }
     .n-button{
         display: none;
+    }
+
+    .n-wrapper{
+        padding: .5rem 0rem;
+    }
+
+    .n-left{
+    padding-left: 0rem;
+    }
+
+    .n-right{
+    padding-right: 0rem;
     }
 }

@@ -12,9 +12,9 @@
 }
 
 .App{
-    padding: 0.5rem 3.5rem;
+    /* padding: 0.5rem 3.5rem; */
     overflow: hidden;
-    color: var(--black);    
+    color: var(--black);
 }
 
 .button {
@@ -34,7 +34,21 @@
   border: 1px solid var(--orange);
 }
 
-@media screen and (max-width: 480px) {
+.pages{
+  padding-top: 3rem;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,#963131);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
   .App{
     padding: 0.5rem 1rem;
   }

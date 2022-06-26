@@ -1,5 +1,6 @@
 .contact-form{
-    padding: 0 3rem 0 3rem;
+    /* padding: 0 3rem 0 3rem; */
+    padding: 0.5rem 6.5rem;
     display: flex;
     height: 80vh;
     margin-top: 4rem;
@@ -39,7 +40,7 @@ textarea{
     left: 8rem;
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 500px) { 
     .contact-form{
         padding: 0;
         flex-direction: column;

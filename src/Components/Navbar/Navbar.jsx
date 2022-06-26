@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import Toggle from '../Toggle/Toggle';
 import './Navbar.css'
 import {Link} from 'react-scroll';
+import {themeContext} from '../../Context'
 
 
 const Navbar = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
   return (
-    <div className="n-wrapper" id='Navbar'>
+    <div className="n-wrapper" style={{ backgroundColor: darkMode ? "black" : "" }} id='Navbar'>
         <div className="n-left">
             <div className="n-name">Purvesh</div>
             <Toggle />
@@ -15,7 +18,7 @@ const Navbar = () => {
             <div className="n-list">
                 <ul style={{listStyleType: 'none'}}>
                 <li>
-                    <Link spy={true} to='Navbar' smooth={true} activeClass='active'>
+                    <Link spy={true} to='Intro' smooth={true} activeClass='active'>
                         Home
                     </Link>
                 </li>
@@ -34,11 +37,11 @@ const Navbar = () => {
                         Portfolio
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link spy={true} to='Testimonials' smooth={true}>
                         Testimonials
                     </Link>
-                </li>
+                </li> */}
                 </ul>
             </div>
 

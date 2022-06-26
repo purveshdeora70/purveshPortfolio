@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import './Portfolio.css';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import Secrets from '../../img/Secrets.png';
-import PurveshDeora from '../../img/Purvesh_Deora.png';
+// import PurveshDeora from '../../img/Purvesh_Deora.png';
 import DrumKit from '../../img/DrumKit.png';
 import ReactDashbord from '../../img/ReactDashbord.png'
 import GitFireApp from '../../img/GitFireApp.png';
@@ -23,11 +23,6 @@ const Portfolio = () => {
             href: "https://secrets-web-apps.herokuapp.com"
           },
           {
-            img: PurveshDeora,
-            appName: "Portfolio",
-            href: "https://purveshdeora.netlify.app"
-          },
-          {
             img: DrumKit,
             appName:"DrumKit",
             href: "https://purveshdeora70.github.io/drumkit-App-JS"
@@ -42,9 +37,14 @@ const Portfolio = () => {
             appName: "GitFire App",
             href: "https://firebase-github-apps.netlify.app"
           },
+          // {
+          //   img: PurveshDeora,
+          //   appName: "Portfolio",
+          //   href: "https://purveshdeora.netlify.app"
+          // },
     ]
 
-    const screenSize = useMediaQuery({ query: '(max-width: 480px)' });
+    const screenSize = useMediaQuery({ query: '(max-width: 500px)' });
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
   return (

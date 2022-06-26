@@ -4,13 +4,28 @@ import Wave from '../../img/wave.png';
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 import Facebook from '@iconscout/react-unicons/icons/uil-facebook'
-
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import CallIcon from '@mui/icons-material/Call';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 const Footer = () => {
   return (
     <div className="footer">
         <img src={Wave} alt="" style={{width: '100%'}} />
         <div className="f-content">
-            <span>Purveshdeora70@gmail.com</span>
+            <div className='contact-contain'>
+              <div className='f-address'>
+                <LocationOnIcon />
+                <span>Mumbai, Chowpatty</span>
+              </div>
+              <div className='f-address'>
+                <CallIcon />
+                <span>7021745056</span>
+              </div>
+              <div className='f-address'>
+              <AlternateEmailIcon />
+                <span>Purveshdeora70@gmail.com</span>
+              </div>
+            </div>
             <div className="f-icons">
                 <a href="https://github.com/purveshdeora70" target='github'>
                   <Github color='white' size='3rem' />

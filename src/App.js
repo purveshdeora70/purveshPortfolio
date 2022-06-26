@@ -22,6 +22,7 @@ const App = () => {
         }}
         >
         <Navbar />
+        <div className='pages'>
         <Intro />
         <Services />
         <Experience />
@@ -30,6 +31,7 @@ const App = () => {
         {/* <Testimonials /> */}
         <Contact />
         <Footer />
+        </div>
         </div>
     );
 }
