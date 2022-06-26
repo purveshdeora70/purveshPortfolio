@@ -44,4 +44,13 @@
       margin-top: 4rem;
       gap: 2rem;
     }
+    .contact-contain{
+        gap: .5rem;
+    }
+
+    .f-icons{
+        display: flex;
+        gap: 2rem;
+        padding-bottom: 2rem
+    }
   }
