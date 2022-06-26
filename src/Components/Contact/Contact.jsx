@@ -38,9 +38,9 @@ const Contact = () =>{
 
         <div className="c-right">
             <form id='contact-form-reset' ref={form} onSubmit={sendEmail}>
-                <input type="text" name="user_name" className='user' placeholder='Name' />
-                <input type="text" name="user_email" className='user' placeholder='Email' />
-                <textarea name="message" className='user' placeholder='Message'></textarea>
+                <input type="text" name="user_name" className='user' placeholder='Name' required />
+                <input type="email" name="user_email" className='user' placeholder='Email' required />
+                <textarea name="message" className='user' placeholder='Message' required></textarea>
                 <input type="submit" value="Send" className='button' />
                 <span>{done && "Thanks for contacting me!"}</span>
                 <div className="blur c-blur1" style={{background: "var(--purple)"}}></div>
