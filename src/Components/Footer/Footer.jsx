@@ -4,6 +4,8 @@ import Wave from '../../img/wave.png';
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 import Facebook from '@iconscout/react-unicons/icons/uil-facebook'
+import Instagram from '@iconscout/react-unicons/icons/uil-instagram'
+import Twitter from '@iconscout/react-unicons/icons/uil-twitter'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
@@ -33,9 +35,9 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/purvesh-deora-70/" target='linkedin'>
                   <Linkedin color='white' size='3rem' />
                 </a>
-                <a href="https://www.instagram.com/purveshdeora70/" target='instagram'>
+                <a href="https://www.facebook.com/madhu.sudhandeora/" target='facebook'>
                   <Facebook color='white' size='3rem' />
-                </a>
+                </a>                
             </div>
         </div>
     </div>
